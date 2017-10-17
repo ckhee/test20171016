@@ -16,6 +16,8 @@ int div(int a, b)
 
 int multi(int a, int b)
 {
+	if(0 == b)
+		throw;
 	return a*b;
 }
 
