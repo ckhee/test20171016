@@ -24,5 +24,10 @@ int multi(int a, int b)
 int main()
 {
 	int a,b,c;
+	
+	a = 3;
+	b = 5;
+	c = multi(3, 5);
+
 	return c;
 }
