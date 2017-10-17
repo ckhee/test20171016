@@ -27,7 +27,8 @@ int main()
 	
 	a = 3;
 	b = 5;
-	c = div(3, 5);
+	c = multi(3, 5);
+	c;
 
 	return c;
 }
